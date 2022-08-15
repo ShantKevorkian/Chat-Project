@@ -1,0 +1,20 @@
+on:
+  branches:
+    - dev
+pull_requests:
+  mode: pr_per_lang
+translationos:
+  api_key_secret: MY_TOS_KEY
+files:
+  - translation: professional
+    service_type: premium
+    source_pattern: src/res/en/*.json
+    source_locale: en-GB
+    target_pattern: src/res/{{locale}}/{{original_file}}
+    target_locales: [ 'pt-BR', 'it-IT' ]
+  - translation: professional
+    service_type: premium
+    source_pattern: src/main/resources/messages.properties
+    source_locale: en-GB
+    target_pattern: src/main/resources/messages_{{locale}}.properties
+    target_locales: [ 'es-ES', 'de-AT' ]
