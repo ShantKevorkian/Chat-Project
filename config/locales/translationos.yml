@@ -1,10 +1,8 @@
 on:
   branches:
-    - dev
+    - main
 pull_requests:
-  mode: pr_per_lang
-translationos:
-  api_key_secret: MY_TOS_KEY
+  mode: pr_all_lang
 files:
   - translation: professional
     service_type: premium
