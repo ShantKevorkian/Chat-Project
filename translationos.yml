@@ -2,7 +2,7 @@ on:
   branches:
     - main
     - feature/test
-    - feature-test-6
+    - feature/test-6
 pull_requests:
   mode: pr_per_lang
 translationos:
