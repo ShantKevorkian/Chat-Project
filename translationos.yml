@@ -3,6 +3,7 @@ on:
     - main
     - feature/test
     - feature/test-6
+  wait_interval: 10
 pull_requests:
   mode: pr_per_lang
 translationos:
