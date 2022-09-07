@@ -1,6 +1,6 @@
 # TranslationOS GitHub connector
 
-This repo contains the code of the connector between the TranslationOS APIs and GitHub.
+This repos contains the code of the connector between the TranslationOS APIs and GitHub.
 The connector is a GitHub application that may be installed on a repo and performs intake and deliveries of translated content
 from/to it.
 
