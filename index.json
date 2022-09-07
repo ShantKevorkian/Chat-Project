@@ -1,0 +1,14 @@
+{
+  "src/res/en/another.json": [
+    "pt-BR",
+    "it-IT"
+  ],
+  "src/res/en/chicken.json": [
+    "pt-BR",
+    "it-IT"
+  ],
+  "src/res/en/file.json": [
+    "pt-BR",
+    "it-IT"
+  ]
+}
