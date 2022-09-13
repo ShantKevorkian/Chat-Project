@@ -7,7 +7,7 @@ on:
 pull_requests:
   mode: pr_per_lang
 translationos:
-  api_key_secret: MY_TOS_KEY
+  api_key_secret: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0eXBlIjoiY3VzdG9tZXIiLCJpYXQiOjE2NjIzOTEyNzQsImlkIjoiZ2l0aHViZGV2Iiwic2FuZGJveCI6dHJ1ZX0.JC59lznss9o9YfyjzqjY45jeklrzH6cHZgmcoSjG2_A
 files:
   - translation: professional
     service_type: premium
