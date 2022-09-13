@@ -5,7 +5,7 @@ on:
     - feature/test-6
   wait_interval: 50s
 pull_requests:
-  mode: pr_per_langs
+  mode: pr_per_lang
 translationos:
   api_key_secret: MY_TOS_KEY
 files:
