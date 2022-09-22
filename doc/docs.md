@@ -1,6 +1,6 @@
 # Documentation
 
-This is a file containing some documentation.
+This is a files containing some documentation.
 
 There are **several** files in this _folder_.
 The `intro.md` file is the entrypoint.
