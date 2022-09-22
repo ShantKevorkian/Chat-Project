@@ -1,0 +1,14 @@
+{
+  "doc/docs.md": [
+    "it-IT",
+    "pt-PT"
+  ],
+  "doc/intro.md": [
+    "it-IT",
+    "pt-PT"
+  ],
+  "src/res/en.json": [
+    "it-IT",
+    "pt-BR"
+  ]
+}
