@@ -2,7 +2,7 @@
 
 This is a test Markdown file to be translated.
 
-Item to address:
+Items to address:
 
 1. Send to translation
 2. Verify received translations
