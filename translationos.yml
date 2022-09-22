@@ -16,3 +16,9 @@ files:
       - src/res/es.json
     target_pattern: src/res/{{locale}}.json
     target_locales: [ 'it-IT', 'pt-BR' ]
+  - translation: professional
+    service_type: premium
+    source_pattern: doc/*.md
+    source_locale: en-GB
+    target_pattern: doc/{{original_file_name}}_{{locale}}.md
+    target_locales: [ 'it-IT', 'pt-PT']
