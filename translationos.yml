@@ -14,7 +14,7 @@ files:
     source_pattern: src/res/*.txt
     source_locale: en-GB
     target_pattern: src/res/{{locale}}.json
-    target_locales: [ 'it-IT']
+    target_locales: [ 'fr-FR']
   - translation: professional
     service_type: premium
     source_pattern: doc/*.md
