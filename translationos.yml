@@ -13,10 +13,8 @@ files:
     service_type: premium
     source_pattern: src/res/*.txt
     source_locale: en-GB
-    source_exclude:
-      - src/res/es.json
     target_pattern: src/res/{{locale}}.json
-    target_locales: [ 'it-IT', 'fr-FR', 'pr-PR', 'pt-PT', 'ar-AR', 'br-BR', 'ch-CH', 'jp-JP']
+    target_locales: [ 'it-IT', 'fr-FR', 'pr-PR', 'pt-PT', 'ar-AR', 'br-BR', 'ch-CH', 'jp-JP', 'tu-TU']
   - translation: professional
     service_type: premium
     source_pattern: doc/*.md
