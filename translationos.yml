@@ -12,7 +12,7 @@ files:
   - translation: professional
     service_type: premium
     source_pattern: src/res/*.txt
-    source_locale: fr-FR
+    source_locale: en-GB
     source_exclude:
       - src/res/es.json
     target_pattern: src/res/{{locale}}.json
