@@ -1,0 +1,6 @@
+{
+  "src/res/en.json": [
+    "src/res/fr-FR.json",
+    "src/res/it-IT.json"
+  ]
+}
