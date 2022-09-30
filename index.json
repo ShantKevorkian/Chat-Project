@@ -1,0 +1,18 @@
+{
+  "src/res/en.json": [
+    "src/res/fr-FR.json",
+    "src/res/it-IT.json"
+  ],
+  "src/res/es.json": [
+    "src/res/fr-FR.json",
+    "src/res/it-IT.json"
+  ],
+  "src/res/fr-FR.json": [
+    "src/res/fr-FR.json",
+    "src/res/it-IT.json"
+  ],
+  "src/res/pr-PR.json": [
+    "src/res/fr-FR.json",
+    "src/res/it-IT.json"
+  ]
+}
