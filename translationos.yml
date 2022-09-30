@@ -22,4 +22,4 @@ files:
     source_exclude:
       - doc/docs.md
     target_pattern: doc/{{original_file_name}}_{{locale}}.md
-    target_locales: [ 'it-IT', 'pt-PT', 'fr-FR', 'ar-AR', 'pr-PR']
+    target_locales: [ 'it-IT']
