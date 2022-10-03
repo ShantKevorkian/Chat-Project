@@ -2,7 +2,7 @@
 
 Questo è un file Markdown di prova da tradurre.
 
-Elementi a cui rivolgersi:
+Elemento da indirizzare:
 
 1. Invia alla traduzione
 2. Verifica traduzioni ricevute
