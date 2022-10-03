@@ -3,7 +3,7 @@ on:
     - main
     - feature/test
     - dev
-  wait_interval: 40s
+  wait_interval: 20s
 pull_requests:
   mode: pr_per_lang
 translationos:
@@ -14,7 +14,7 @@ files:
     source_pattern: src/res/en.json
     source_locale: en-GB
     target_pattern: src/res/{{locale}}.json
-    target_locales: ['fr-FR', 'it-IT', 'pt-PT', 'ar-EG']
+    target_locales: ['fr-FR', 'it-IT', 'pt-PT']
   - translation: professional
     service_type: premium
     source_pattern: doc/*.md
@@ -22,4 +22,4 @@ files:
     source_exclude:
       - doc/docs.md
     target_pattern: doc/{{original_file_name}}_{{locale}}.md
-    target_locales: ['it-IT', 'fr-FR']
+    target_locales: ['it-IT']
