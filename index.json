@@ -1,0 +1,20 @@
+{
+  "doc/intro.md": [
+    "doc/intro_it-IT.md",
+    "doc/intro_fr-FR.md"
+  ],
+  "src/res/en.json": [
+    "src/res/fr-FR.json",
+    "src/res/it-IT.json",
+    "src/res/pt-PT.json",
+    "src/res/ar-EG.json"
+  ],
+  "doc/docs.md": [
+    "doc/docs_it-IT.md",
+    "doc/docs_fr-FR.md"
+  ],
+  "doc/intro_it-IT.md": [
+    "doc/intro_it-IT_it-IT.md",
+    "doc/intro_it-IT_fr-FR.md"
+  ]
+}
