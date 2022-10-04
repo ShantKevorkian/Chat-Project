@@ -1,0 +1,14 @@
+{
+  "src/res/en.json": [
+    "src/res/ar-EG.json"
+  ],
+  "doc/docs.md": [
+    "doc/docs_fr-FR.md"
+  ],
+  "doc/intro.md": [
+    "doc/intro_fr-FR.md"
+  ],
+  "doc/intro_it-IT.md": [
+    "doc/intro_it-IT_fr-FR.md"
+  ]
+}
