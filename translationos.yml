@@ -1,9 +1,9 @@
+enable: true
 on:
   branches:
     - main
     - feature/test
     - dev
-  wait_interval: 20s
 pull_requests:
   mode: pr_per_lang
 translationos:
