@@ -20,7 +20,7 @@ files:
     source_pattern: doc/!(*_*).md
     source_locale: en-GB
     target_pattern: doc/{{original_file_name}}_{{locale}}.md
-    target_locales: ['pt-PT', 'pl-PL', 'it-IT', 'ar-EG', 'fr-FR']
+    target_locales: ['pt-PT', 'pl-PL', 'it-IT', 'ar-EG']
   - translation: professional
     service_type: premium
     source_pattern: src/res/en/messages.yml
