@@ -1,6 +1,6 @@
 on:
   branches:
-    - feature/*
+    - feature/**
   wait_interval: 5s
 pull_requests:
   mode: pr_per_lang
@@ -10,4 +10,4 @@ files:
     source_pattern: src/res/!(*_*).properties
     source_locale: en-GB
     target_pattern: src/res/{{original_file_name}}-{{lang_2}}.properties
-    target_locales: ['pl-PL','es-419', 'it-IT']
+    target_locales: ['pl-PL','es-419']
