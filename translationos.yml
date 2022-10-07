@@ -1,6 +1,6 @@
 on:
   branches:
-    - feature/test
+    - feature/*
   wait_interval: 5s
 pull_requests:
   mode: pr_per_lang
