@@ -7,7 +7,7 @@ pull_requests:
 files:
   - translation: professional
     service_type: premium
-    source_pattern: src/res/!(*_*).properties
+    source_pattern: src/res/!(*-*).properties
     source_locale: en-GB
     target_pattern: src/res/{{original_file_name}}-{{lang_2}}.properties
-    target_locales: ['fr-FR', 'ar-EG']
+    target_locales: ['fr-FR', 'ar-EG', 'pt-PT']
