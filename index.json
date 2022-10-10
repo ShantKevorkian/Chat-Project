@@ -1,0 +1,14 @@
+{
+  "src/res/strings-es.properties": [
+    "src/res/strings-es-ar.properties"
+  ],
+  "src/res/strings-it.properties": [
+    "src/res/strings-it-ar.properties"
+  ],
+  "src/res/strings-pl.properties": [
+    "src/res/strings-pl-ar.properties"
+  ],
+  "src/res/strings.properties": [
+    "src/res/strings-ar.properties"
+  ]
+}
