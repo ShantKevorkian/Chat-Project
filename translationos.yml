@@ -10,4 +10,4 @@ files:
     source_pattern: src/res/!(*-*).properties
     source_locale: en-GB
     target_pattern: src/res/{{original_file_name}}-{{lang_2}}.properties
-    target_locales: ['fr-FR', 'ar-EG', 'pt-PT']
+    target_locales: ['fr-FR', 'ar-EG']
