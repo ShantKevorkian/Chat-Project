@@ -1,0 +1,22 @@
+{
+  "src/res/strings.properties": [
+    "src/res/strings-it.properties",
+    "src/res/strings-fr.properties",
+    "src/res/strings-fr.properties"
+  ],
+  "src/res/strings-es.properties": [
+    "src/res/strings-es-it.properties",
+    "src/res/strings-es-fr.properties",
+    "src/res/strings-es-fr.properties"
+  ],
+  "src/res/strings-it.properties": [
+    "src/res/strings-it-it.properties",
+    "src/res/strings-it-fr.properties",
+    "src/res/strings-it-fr.properties"
+  ],
+  "src/res/strings-pl.properties": [
+    "src/res/strings-pl-it.properties",
+    "src/res/strings-pl-fr.properties",
+    "src/res/strings-pl-fr.properties"
+  ]
+}
