@@ -1,7 +1,0 @@
-{
-  "src/res/strings.properties": [
-    "src/res/strings-fr.properties",
-    "src/res/strings-ar.properties",
-    "src/res/strings-pt.properties"
-  ]
-}
