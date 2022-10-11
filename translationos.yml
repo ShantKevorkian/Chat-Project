@@ -2,7 +2,7 @@ on:
   branches:
     - feature/**
 pull_requests:
-  mode: pr_all_langs
+  mode: pr_per_lang
 files:
   - translation: professional
     service_type: premium
