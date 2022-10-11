@@ -1,7 +1,6 @@
 on:
   branches:
     - feature/**
-  wait_interval: 40s
 pull_requests:
   mode: pr_per_lang
 files:
