@@ -1,0 +1,11 @@
+{
+  "src/res/strings.properties": [
+    "src/res/strings-de.properties"
+  ],
+  "src/res/stringsclone.properties": [
+    "src/res/stringsclone-de.properties"
+  ],
+  "src/res/en.json": [
+    "src/res/en-de.properties"
+  ]
+}
