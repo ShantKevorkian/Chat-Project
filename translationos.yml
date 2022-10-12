@@ -3,7 +3,7 @@ on:
     - feature/**
   wait_interval: 20s
 pull_requests:
-  mode: pr_per_lang
+  mode: pr_all_langs
 files:
   - translation: professional
     service_type: premium
