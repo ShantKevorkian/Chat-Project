@@ -1,0 +1,11 @@
+{
+  "src/res/en.json": [
+    "src/res/en-qu.properties"
+  ],
+  "src/res/strings.properties": [
+    "src/res/strings-qu.properties"
+  ],
+  "src/res/stringsclone.properties": [
+    "src/res/stringsclone-qu.properties"
+  ]
+}
