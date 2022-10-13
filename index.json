@@ -1,0 +1,8 @@
+{
+  "src/res/strings.properties": [
+    "src/res/strings-ru.properties"
+  ],
+  "src/res/stringsclone.properties": [
+    "src/res/stringsclone-ru.properties"
+  ]
+}
