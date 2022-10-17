@@ -3,7 +3,12 @@ on:
     - feature/**
   wait_interval: 20s
 pull_requests:
-  mode: pr_all_langs
+  mode: pr_per_lang
+  labels:
+    - localization
+    - documentation
+    - translation
+    - bug
 files:
   - translation: professional
     service_type: premium
