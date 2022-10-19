@@ -1,7 +1,7 @@
 on:
   branches:
     - feature/**
-  wait_interval: 20s
+  wait_interval: 50s
 pull_requests:
   mode: pr_per_lang
   labels:
