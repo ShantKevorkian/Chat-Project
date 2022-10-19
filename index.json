@@ -1,0 +1,11 @@
+{
+  "src/res/strings.properties": [
+    "src/res/strings-ru-Russian.properties"
+  ],
+  "src/res/stringsclone.properties": [
+    "src/res/stringsclone-ru-Russian.properties"
+  ],
+  "src/res/test.md": [
+    "src/res/test-ru:Russian.md"
+  ]
+}
