@@ -27,4 +27,4 @@ files:
     source_pattern: src/res/!(*-*).md
     source_locale: en-GB
     target_pattern: src/res/{{original_file_name}}-{{lang_2}}:{{language}}.md
-    target_locales: ['de-DE', 'qu-PE', 'fr-FR', 'ar-EG', 'ru-RU', 'dd-EE', 'gg-GG']
+    target_locales: ['de-DE', 'qu-PE', 'fr-FR', 'ar-EG', 'ru-RU', 'dd-EE', 'gg-GG', 'es-ES']
