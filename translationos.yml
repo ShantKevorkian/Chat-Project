@@ -2,13 +2,6 @@ on:
   branches:
     - feature/**
   wait_interval: 10s
-pull_requests:
-  mode: pr_per_lang
-  labels:
-    - localization
-    - documentation
-    - translation
-    - bug
 files:
   - translation: professional
     service_type: premium
