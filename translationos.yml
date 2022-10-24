@@ -9,7 +9,7 @@ files:
     source_pattern: src/res/!(*-*).properties
     source_locale: en-GB
     target_pattern: src/res/{{original_file_name}}-{{language}}:{{county_2}}-{{country}}.properties
-    target_locales: ['de-DE', 'ru-RU']
+    target_locales: ['de-DE', 'ru-RU', 'it-IT']
   - translation: professional
     service_type: premium
     source_pattern: src/res/!(*-*).json
