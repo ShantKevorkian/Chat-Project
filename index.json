@@ -1,0 +1,8 @@
+{
+  "src/res/strings.properties": [
+    "src/res/strings-Italian:{{county_2}}-Italy.properties"
+  ],
+  "src/res/stringsclone.properties": [
+    "src/res/stringsclone-Italian:{{county_2}}-Italy.properties"
+  ]
+}
