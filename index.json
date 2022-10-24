@@ -1,0 +1,5 @@
+{
+  "src/res/strings.properties": [
+    "src/res/strings-Italian:{{county_2}}-Italy.properties"
+  ]
+}
