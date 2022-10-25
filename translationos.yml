@@ -1,6 +1,3 @@
-on:
-  branches:
-    - feature/**
 pull_requests:
   mode: pr_per_lang
   automerge: true
