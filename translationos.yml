@@ -6,11 +6,11 @@ pull_requests:
   automerge: true
 files:
   - translation: professional
-    service_type: foobar
+    service_type: premium
     source_pattern: src/res/!(*-*).properties
     source_locale: en-GB
     target_pattern: src/res/{{original_file_name}}-{{language}}-{{countr_2}}-{{country}}.properties
-    target_locales: ['de-DE', 'it-IT', 'fr-FR']
+    target_locales: ['de-DE', 'it-IT']
   - translation: professional
     service_type: premium
     source_pattern: src/res/!(*-*).json
