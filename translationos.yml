@@ -6,7 +6,7 @@ pull_requests:
   automerge: true
 files:
   - translation: professional
-    service_type: premium
+    service_type: foobar
     source_pattern: src/res/!(*-*).properties
     source_locale: en-GB
     target_pattern: src/res/{{original_file_name}}-{{language}}-{{countr_2}}-{{country}}.properties
