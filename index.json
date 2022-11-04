@@ -1,0 +1,8 @@
+{
+  "src/res/en.json": [
+    "src/res/en-qu.json"
+  ],
+  "src/res/test.md": [
+    "src/res/test-qu:Quechua.md"
+  ]
+}
