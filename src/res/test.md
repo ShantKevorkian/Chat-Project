@@ -1,4 +1,4 @@
-Hello darkness, my old friend
+Hello darkness, my old friends
 I've come to talk with you again
 Because a vision softly creeping
 Left its seeds while I was sleeping
