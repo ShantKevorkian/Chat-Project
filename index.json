@@ -1,0 +1,8 @@
+{
+  "src/res/strings.properties": [
+    "src/res/strings-German-DE-Germany.properties"
+  ],
+  "src/res/en.json": [
+    "src/res/en-de.json"
+  ]
+}
