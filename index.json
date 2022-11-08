@@ -1,0 +1,14 @@
+{
+  "src/res/strings.properties": [
+    "src/res/strings-German-DE-Germany.properties",
+    "src/res/strings-Italian-IT-Italy.properties"
+  ],
+  "src/res/en.json": [
+    "src/res/en-de.json",
+    "src/res/en-qu.json"
+  ],
+  "src/res/test.docx": [
+    "src/res/test-de-German.docx",
+    "src/res/test-it-Italian.docx"
+  ]
+}
