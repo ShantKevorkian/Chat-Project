@@ -1,0 +1,8 @@
+{
+  "src/res/strings.properties": [
+    "src/res/strings-Italian-IT-Italy.properties"
+  ],
+  "src/res/test.docx": [
+    "src/res/test-it:Italian.md"
+  ]
+}
