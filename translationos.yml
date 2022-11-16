@@ -6,10 +6,11 @@ pull_requests:
 files:
   - translation: professional
     service_type: premium
-    source_pattern: src/res/!(*-*).dog
+    source_pattern: src/res/!(*-*).properties
     source_locale: en-GB
-    target_pattern: src/res/{{original_file_name}}-{{language}}-{{countr_2}}-{{country}}.dog
+    target_pattern: src/res/{{original_file_name}}-{{language}}-{{countr_2}}-{{country}}.properties
     target_locales: ['de-DE', 'it-IT']
+    preprocessing: true
   - translation: professional
     service_type: premium
     source_pattern: src/res/!(*-*).json
