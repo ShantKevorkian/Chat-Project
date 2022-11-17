@@ -6,7 +6,7 @@ pull_requests:
 files:
   - translation: professional
     service_type: premium
-    source_pattern: src/**/others/**/!(*-*).properties
+    source_pattern: src/**/others/**/*
     source_locale: en-GB
     target_pattern: src/**/others/**/{{locale}}/strings_{{lang_2}}.properties
     target_locales: ['de-DE']
