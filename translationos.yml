@@ -8,7 +8,7 @@ files:
     service_type: premium
     source_pattern: src/**/others/**/res/!(*-*).properties
     source_locale: en-GB
-    target_pattern: src/**/others/**/res/{{original_file_name}}-{{language}}-{{countr_2}}-{{country}}.properties
+    target_pattern: src/**/others/**/res/{{locale}}/{{original_file_name}}-{{language}}-{{countr_2}}-{{country}}.properties
     target_locales: ['de-DE', 'it-IT']
     preprocessing: true
   - translation: professional
