@@ -1,6 +1,7 @@
 on:
-  branches:
+  tags:
     - feature/**
+    - fix*
 pull_requests:
   mode: pr_per_lang
 files:
