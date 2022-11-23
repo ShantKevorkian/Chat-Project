@@ -1,0 +1,23 @@
+{
+  "src/cat/new/others/gate/vlog/res/strings.properties": [
+    "src/cat/new/others/gate/vlog/res/strings_de.md"
+  ],
+  "src/res/strings.properties": [
+    "src/res/strings_de.md"
+  ],
+  "src/res/stringsclone.properties": [
+    "src/res/stringsclone_de.md"
+  ],
+  "src/res/en.json": [
+    "src/res/en-de.json"
+  ],
+  "src/res/es.json": [
+    "src/res/es-de.json"
+  ],
+  "src/res/test.md": [
+    "src/res/test-de-German.md"
+  ],
+  "src/res/test.docx": [
+    "src/res/test-de-German.docx"
+  ]
+}
