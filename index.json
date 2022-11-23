@@ -1,0 +1,5 @@
+{
+  "src/res/strings.properties": [
+    "src/**/strings_de.md"
+  ]
+}
