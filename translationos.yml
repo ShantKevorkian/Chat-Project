@@ -1,9 +1,10 @@
 on:
-  tags:
+  branches:
     - feature/**
     - fix*
 pull_requests:
   mode: pr_per_lang
+  automerge: merge
 files:
   - translation: professional
     service_type: premium
