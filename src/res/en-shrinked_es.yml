@@ -14,35 +14,35 @@ A continuación, siga el programa de trabajo en las subtareas a continuación pa
 '"{projectName}" and {count} other projects will be moved to the References [...]':
   author: lesialiao
   comment: Usar la misma traducción que 'Referencias [sustantivo]'
-  fallback_key: '"{projectName}" y {count} otros proyectos se trasladarán al trabajo de apoyo [...]'
+  fallback_key: '"{projectName}" y {count} otros proyectos se moverán al trabajo de apoyo [...]'
   locations:
     - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
   value:
-    count_one: '"{projectName}" y {count} otros proyectos se moverán a la sección Referencias una vez que se guarden los cambios.'
+    count_one: '"{projectName}" y {count} otro proyecto se moverán a la sección Referencias una vez que se guarden los cambios.'
     count_other: '"{projectName}" y {count} otros proyectos se moverán a la sección Referencias una vez que se guarden los cambios.'
 '"{projectName}" and {count} other projects will be moved to the References section once your changes are saved. Projects [...]':
   author: lesialiao
   comment: Usar la misma traducción que 'Referencias [sustantivo]'
-  fallback_key: '"{projectName}" y {count} otros proyectos se moverán a la sección Apoyo al trabajo una vez que se guarden los cambios. Proyectos'
+  fallback_key: '"{projectName}" y {count} otros proyectos se moverán a la sección de trabajo de soporte una vez que se guarden los cambios. Proyectos'
   locations:
     - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
   value:
-    count_one: '"{projectName}" y {count} otros proyectos se moverán a la sección Referencias una vez que se guarden los cambios. Los proyectos a los que no tienes acceso también se verán afectados.'
+    count_one: '"{projectName}" y {count} otro proyecto se moverán a la sección Referencias una vez que se guarden los cambios. Los proyectos a los que no tienes acceso también se verán afectados.'
     count_other: '"{projectName}" y {count} otros proyectos se moverán a la sección Referencias una vez que se guarden los cambios. Los proyectos a los que no tienes acceso también se verán afectados.'
 '"{projectName}" and {count} other projects will be moved to the Supporting work [...]':
   author: phillipyu
   locations:
     - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
   value:
-    count_one: '"{projectName}" y {count} otros proyectos se moverán a la sección de trabajo de soporte una vez que se guarden los cambios.'
-    count_other: '"{projectName}" y {count} otros proyectos se moverán a la sección Apoyo al trabajo una vez que se guarden los cambios.'
+    count_one: '"{projectName}" y {count} otro proyecto se moverán a la sección de trabajo de soporte una vez que se guarden los cambios.'
+    count_other: '"{projectName}" y {count} otros proyectos se moverán a la sección de trabajo de soporte una vez que se guarden los cambios.'
 '"{projectName}" and {count} other projects will be moved to the Supporting work section once your changes are saved. Projects [...]':
   author: phillipyu
   locations:
     - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
   value:
-    count_one: '"{projectName}" y {count} otros proyectos se moverán a la sección de trabajo de soporte una vez que se guarden los cambios. Los proyectos a los que no tienes acceso también se verán afectados.'
-    count_other: '"{projectName}" y {count} otros proyectos se moverán a la sección Apoyo al trabajo una vez que se guarden los cambios. Los proyectos a los que no tienes acceso también se verán afectados.'
+    count_one: '"{projectName}" y {count} otro proyecto se moverán a la sección de trabajo de soporte una vez que se guarden los cambios. Los proyectos a los que no tienes acceso también se verán afectados.'
+    count_other: '"{projectName}" y {count} otros proyectos se moverán a la sección de trabajo de soporte una vez que se guarden los cambios. Los proyectos a los que no tienes acceso también se verán afectados.'
 '"{ruleName}" added to this {variant}':
   author: alexryan
   locations:
@@ -81,14 +81,14 @@ Vea las subtareas a continuación para obtener un programa de trabajo sugerido:'
     - asana2/luna-ui/src/components/widgets/hearts/heart_button_tooltip_anchor.ts
   variants:
     _default:
-      count_one: <div>Tú...</div> {listOfNames} … y {count} demás todo {variant} esto
-      count_other: <div>Tú...</div> {listOfNames} … y {count} otros todo {variant} esto
+      count_one: <div>Tú...</div> {listOfNames}... y {count} otras {variant} esto
+      count_other: <div>Tú...</div> {listOfNames}... y {count} otros todos {variant} esto
     liked:
-      count_one: <div>Tú...</div> {listOfNames} … y {count} a todos les gustaba esto
-      count_other: <div>Tú...</div> {listOfNames} ... y {count} a otros les gustaba esto
+      count_one: <div>Tú...</div> A {listOfNames}... y a {count} otros les ha gustado esto
+      count_other: <div>Tú...</div> A {listOfNames}... y a {count} otros les ha gustado esto
     '{heart}':
-      count_one: <div>Tú...</div> {listOfNames} … y {count} demás todo {heart} esto
-      count_other: <div>Tú...</div> {listOfNames} … y {count} otros todo {heart} esto
+      count_one: <div>Tú...</div> {listOfNames}... y {count} otros todos {heart} esto
+      count_other: <div>Tú...</div> {listOfNames}... y {count} otros todos {heart} esto
 about-text:
   author: victor alonso lopez mendez Nombre
   comment: Texto del botón, máximo 2 palabras
@@ -96,4 +96,4 @@ about-text:
 about-tooltip:
   author: victor alonso lopez mendez Nombre
   comment: Botón de información sobre herramientas, hágalo corto
-  value: Ayuda sobre estas aplicaciones
+  value: Acerca de esta aplicación
