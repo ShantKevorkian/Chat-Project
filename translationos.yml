@@ -11,7 +11,7 @@ files:
     source_pattern: src/res/!(*-*).properties
     source_locale: en-GB
     target_pattern: src/res/{{original_file_name}}_{{lang_2}}.properties
-    target_locales: ['de-DE']
+    target_locales: ['de-DE', 'it-IT', 'fr-FR']
     preprocessing: true
   - translation: professional
     service_type: premium
