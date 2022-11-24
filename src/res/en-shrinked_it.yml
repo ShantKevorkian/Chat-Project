@@ -14,7 +14,7 @@ Quindi, segui il programma di workback nelle sottoattività sottostanti per spos
 '"{projectName}" and {count} other projects will be moved to the References [...]':
   author: lesialiao
   comment: Usa la stessa traduzione di 'References [sostantivo]'
-  fallback_key: '"{projectName}" e {count} altri progetti saranno trasferiti al lavoro di supporto [...]'
+  fallback_key: '"{projectName}" e {count} altri progetti saranno spostati nel lavoro di supporto [...]'
   locations:
     - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
   value:
@@ -23,7 +23,7 @@ Quindi, segui il programma di workback nelle sottoattività sottostanti per spos
 '"{projectName}" and {count} other projects will be moved to the References section once your changes are saved. Projects [...]':
   author: lesialiao
   comment: Usa la stessa traduzione di 'References [sostantivo]'
-  fallback_key: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Lavori di supporto una volta salvate le modifiche. Progetti'
+  fallback_key: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Riferimenti una volta salvate le modifiche. Progetti'
   locations:
     - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
   value:
@@ -34,15 +34,15 @@ Quindi, segui il programma di workback nelle sottoattività sottostanti per spos
   locations:
     - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
   value:
-    count_one: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Lavori di supporto una volta salvate le modifiche.'
-    count_other: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Lavori di supporto una volta salvate le modifiche.'
+    count_one: '"{projectName}" e {count} altro progetto verranno spostati nella sezione di lavoro di supporto una volta salvate le modifiche.'
+    count_other: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Riferimenti una volta salvate le modifiche.'
 '"{projectName}" and {count} other projects will be moved to the Supporting work section once your changes are saved. Projects [...]':
   author: phillipyu
   locations:
     - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
   value:
-    count_one: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Lavori di supporto una volta salvate le modifiche. Anche i progetti a cui non hai accesso saranno interessati.'
-    count_other: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Lavori di supporto una volta salvate le modifiche. Anche i progetti a cui non hai accesso saranno interessati.'
+    count_one: '"{projectName}" e {count} altro progetto verranno spostati nella sezione di lavoro di supporto una volta salvate le modifiche. Anche i progetti a cui non hai accesso saranno interessati.'
+    count_other: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Riferimenti una volta salvate le modifiche. Anche i progetti a cui non hai accesso saranno interessati.'
 '"{ruleName}" added to this {variant}':
   author: alexryan
   locations:
@@ -51,7 +51,7 @@ Quindi, segui il programma di workback nelle sottoattività sottostanti per spos
     - asana2/luna-ui/src/components/dialog/automation/automation_mini_rule_builder_configuration.ts
   variants:
     _default: '"{ruleName}" aggiunto'
-    my_tasks: '"{ruleName}" aggiunto a Attività personali'
+    my_tasks: '"{ruleName}" aggiunto a Le mie attività'
     project: '"{ruleName}" aggiunto a questo progetto'
     project_template: '"{ruleName}" aggiunto a questo modello di progetto'
 '**Duplicate this task to create a blog task. [...] [Template content c96abd6d10de655bdb44d40d2546e313]':
@@ -81,14 +81,14 @@ Consultare le sottoattività riportate di seguito per una pianificazione del wor
     - asana2/luna-ui/src/components/widgets/hearts/heart_button_tooltip_anchor.ts
   variants:
     _default:
-      count_one: <div>You</div> {listOfNames} ... e tutto {variant} il {count} resto
-      count_other: <div>You</div> {listOfNames} ... e {count} altri tutto {variant} questo
+      count_one: <div>You</div> {listOfNames}... e {count} altri {variant} questo
+      count_other: <div>You</div> {listOfNames}... e {count} altri {variant} questo
     liked:
-      count_one: <div>You</div> {listOfNames} ... e {count} ad altri è piaciuto questo
-      count_other: <div>You</div> {listOfNames} ... e {count} ad altri è piaciuto tutto questo
+      count_one: <div>You</div> Questo è piaciuto a {listOfNames}... e ad altri {count}
+      count_other: <div>You</div> A {listOfNames}... e a {count} altri è piaciuto questo
     '{heart}':
-      count_one: <div>You</div> {listOfNames} ... e tutto {heart} il {count} resto
-      count_other: <div>You</div> {listOfNames} ... e {count} altri tutto {heart} questo
+      count_one: <div>You</div> {listOfNames}... e {count} altri {heart} questo
+      count_other: <div>You</div> {listOfNames}... e {count} altri {heart} questo
 about-text:
   author: alex
   comment: Testo del pulsante, massimo 2 parole
@@ -96,4 +96,4 @@ about-text:
 about-tooltip:
   author: alex
   comment: Tooltip del pulsante, rendilo breve
-  value: Aiuto su questa applicazione
+  value: Informazioni sull'applicazione
