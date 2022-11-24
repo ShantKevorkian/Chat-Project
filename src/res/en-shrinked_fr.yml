@@ -14,35 +14,35 @@ Ensuite, suivez le calendrier de travail dans les sous-tâches ci-dessous pour l
 '"{projectName}" and {count} other projects will be moved to the References [...]':
   author: lesialiao
   comment: Utiliser la même traduction que « Références [nom] »
-  fallback_key: '"{projectName}" et {count} d''autres projets seront déplacés vers le travail de soutien [...]'
+  fallback_key: '"{projectName}" et {count} autres projets seront déplacés vers le travail de soutien [...]'
   locations:
     - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
   value:
-    count_one: '"{projectName}" et {count} d''autres projets seront déplacés vers la section Références une fois vos modifications enregistrées.'
-    count_other: '"{projectName}" et {count} d''autres projets seront déplacés vers la section Références une fois vos modifications enregistrées.'
+    count_one: '"{projectName}" et {count} autre projet seront déplacés vers la section Références une fois vos modifications enregistrées.'
+    count_other: '"{projectName}" et {count} autres projets seront déplacés vers la section Références une fois vos modifications enregistrées.'
 '"{projectName}" and {count} other projects will be moved to the References section once your changes are saved. Projects [...]':
   author: lesialiao
   comment: Utiliser la même traduction que « Références [nom] »
-  fallback_key: '"{projectName}" et {count} d''autres projets seront déplacés vers la section Travail de soutien une fois vos modifications enregistrées. Projets'
+  fallback_key: '"{projectName}" et {count} autres projets seront déplacés vers la section Travail de support une fois vos modifications enregistrées. Projets'
   locations:
     - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
   value:
-    count_one: '"{projectName}" et {count} d''autres projets seront déplacés vers la section Références une fois vos modifications enregistrées. Les projets auxquels vous n''avez pas accès seront également affectés.'
-    count_other: '"{projectName}" et {count} d''autres projets seront déplacés vers la section Références une fois vos modifications enregistrées. Les projets auxquels vous n''avez pas accès seront également affectés.'
+    count_one: '"{projectName}" et {count} autre projet seront déplacés vers la section Références une fois vos modifications enregistrées. Les projets auxquels vous n''avez pas accès seront également affectés.'
+    count_other: '"{projectName}" et {count} autres projets seront déplacés vers la section Références une fois vos modifications enregistrées. Les projets auxquels vous n''avez pas accès seront également affectés.'
 '"{projectName}" and {count} other projects will be moved to the Supporting work [...]':
   author: phillipyu
   locations:
     - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
   value:
-    count_one: '"{projectName}" et {count} d''autres projets seront déplacés vers la section Travail de soutien une fois vos modifications enregistrées.'
-    count_other: '"{projectName}" et {count} d''autres projets seront déplacés vers la section Travail de soutien une fois vos modifications enregistrées.'
+    count_one: '"{projectName}" et {count} autre projet seront déplacés vers la section Travail de support une fois vos modifications enregistrées.'
+    count_other: '"{projectName}" et {count} autres projets seront déplacés vers la section Travail de support une fois vos modifications enregistrées.'
 '"{projectName}" and {count} other projects will be moved to the Supporting work section once your changes are saved. Projects [...]':
   author: phillipyu
   locations:
     - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
   value:
-    count_one: '"{projectName}" et {count} d''autres projets seront déplacés vers la section Travail de soutien une fois vos modifications enregistrées. Les projets auxquels vous n''avez pas accès seront également affectés.'
-    count_other: '"{projectName}" et {count} d''autres projets seront déplacés vers la section Travail de soutien une fois vos modifications enregistrées. Les projets auxquels vous n''avez pas accès seront également affectés.'
+    count_one: '"{projectName}" et {count} autre projet seront déplacés vers la section Travail de support une fois vos modifications enregistrées. Les projets auxquels vous n''avez pas accès seront également affectés.'
+    count_other: '"{projectName}" et {count} autres projets seront déplacés vers la section Travail de support une fois vos modifications enregistrées. Les projets auxquels vous n''avez pas accès seront également affectés.'
 '"{ruleName}" added to this {variant}':
   author: alexryane
   locations:
@@ -81,14 +81,14 @@ travail suggéré :'
     - asana2/luna-ui/src/components/widgets/cœurs/heart_button_tooltip_anchor.ts
   variants:
     _default:
-      count_one: <div>Vous</div> {listOfNames} … et {count} d'autres choses {variant} encore
-      count_other: <div>Vous</div> {listOfNames} … et {count} d'autres tout {variant} cela
+      count_one: <div>Vous</div> {listOfNames} … et {count} d'autres {variant} ce
+      count_other: <div>Vous</div> {listOfNames} … et {count} les autres {variant} ce
     liked:
-      count_one: <div>Vous</div> {listOfNames} … et {count} d'autres ont tous aimé cela
-      count_other: <div>Vous</div> {listOfNames} … et {count} d'autres ont tous aimé cela
+      count_one: <div>Vous</div> {listOfNames} … et {count} autres ont tous aimé cela
+      count_other: <div>Vous</div> {listOfNames} … et {count} autres ont tous aimé cela
     '{heart}':
-      count_one: <div>Vous</div> {listOfNames} … et {count} d'autres choses {heart} encore
-      count_other: <div>Vous</div> {listOfNames} … et {count} d'autres tout {heart} cela
+      count_one: <div>Vous</div> {listOfNames} … et {count} d'autres {heart} ce
+      count_other: <div>Vous</div> {listOfNames} … et {count} les autres {heart} ce
 about-text:
   author: alex
   comment: Texte du bouton, 2 mots maximum
@@ -96,4 +96,4 @@ about-text:
 about-tooltip:
   author: alex
   comment: Bouton info-bulle, faites court
-  value: Aide sur cette application
+  value: À propos de cette application
