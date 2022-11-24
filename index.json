@@ -1,0 +1,8 @@
+{
+  "src/res/strings.yml": [
+    "src/res/strings_de.yml",
+    "src/res/strings_it.yml",
+    "src/res/strings_fr.yml",
+    "src/res/strings_es.yml"
+  ]
+}
