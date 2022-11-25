@@ -1,10 +1,4 @@
 {
-  "src/res/en-shrinked.yml": [
-    "src/res/en-shrinked_de.yml",
-    "src/res/en-shrinked_it.yml",
-    "src/res/en-shrinked_fr.yml",
-    "src/res/en-shrinked_es.yml"
-  ],
   "src/res/en-shrinked_de.yml": [
     "src/res/en-shrinked_de_de.yml",
     "src/res/en-shrinked_de_it.yml",
