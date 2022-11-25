@@ -1,0 +1,58 @@
+{
+  "src/res/en-shrinked.yml": [
+    "src/res/en-shrinked_de.yml",
+    "src/res/en-shrinked_it.yml",
+    "src/res/en-shrinked_fr.yml",
+    "src/res/en-shrinked_es.yml"
+  ],
+  "src/res/en-shrinked_de.yml": [
+    "src/res/en-shrinked_de_de.yml",
+    "src/res/en-shrinked_de_it.yml",
+    "src/res/en-shrinked_de_fr.yml",
+    "src/res/en-shrinked_de_es.yml"
+  ],
+  "src/res/en-shrinked_es.yml": [
+    "src/res/en-shrinked_es_de.yml",
+    "src/res/en-shrinked_es_it.yml",
+    "src/res/en-shrinked_es_fr.yml",
+    "src/res/en-shrinked_es_es.yml"
+  ],
+  "src/res/en-shrinked_fr.yml": [
+    "src/res/en-shrinked_fr_de.yml",
+    "src/res/en-shrinked_fr_it.yml",
+    "src/res/en-shrinked_fr_fr.yml",
+    "src/res/en-shrinked_fr_es.yml"
+  ],
+  "src/res/en-shrinked_it.yml": [
+    "src/res/en-shrinked_it_de.yml",
+    "src/res/en-shrinked_it_it.yml",
+    "src/res/en-shrinked_it_fr.yml",
+    "src/res/en-shrinked_it_es.yml"
+  ],
+  "src/res/strings.yml": [
+    "src/res/strings_de.yml",
+    "src/res/strings_it.yml",
+    "src/res/strings_fr.yml",
+    "src/res/strings_es.yml"
+  ],
+  "src/res/en.json": [
+    "src/res/en-de.json",
+    "src/res/en-qu.json"
+  ],
+  "src/res/es.json": [
+    "src/res/es-de.json",
+    "src/res/es-qu.json"
+  ],
+  "src/res/test.md": [
+    "src/res/test-de-German.md",
+    "src/res/test-qu-Quechua.md",
+    "src/res/test-fr-French.md",
+    "src/res/test-ar-Arabic Egypt.md",
+    "src/res/test-ru-Russian.md",
+    "src/res/test-es-Spanish.md"
+  ],
+  "src/res/test.docx": [
+    "src/res/test-de-German.docx",
+    "src/res/test-it-Italian.docx"
+  ]
+}
