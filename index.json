@@ -1,16 +1,8 @@
 {
-  "src/res/en-shrinked.yml": [
-    "src/res/en-shrinked_de.yml",
-    "src/res/en-shrinked_it.yml",
-    "src/res/en-shrinked_fr.yml",
-    "src/res/en-shrinked_es.yml"
-  ],
   "src/res/en.json": [
-    "src/res/en-de.json",
     "src/res/en-qu.json"
   ],
   "src/res/es.json": [
-    "src/res/es-de.json",
     "src/res/es-qu.json"
   ],
   "src/res/test.md": [
