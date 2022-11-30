@@ -1,5 +1,5 @@
 on:
-  tags:
+  branches:
     - feature/**
     - fix*
 pull_requests:
