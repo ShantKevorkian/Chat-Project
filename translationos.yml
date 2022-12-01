@@ -4,12 +4,12 @@ on:
     - fix*
 pull_requests:
   mode: pr_all_langs
-  auromerge: merge
 files:
   - translation: professional
+    service_type: premium
     source_pattern: src/res/*.yml
     source_locale: en-GB
-    target_pattern: src/res/{{original_file_name}}_{{lang}}.yml
+    target_pattern: src/res/{{original_file_name}}_{{lang_2}}.yml
     target_locales: ['de-DE', 'it-IT', 'fr-FR', 'es-ES']
     preprocessing: true
   - translation: professional
@@ -29,6 +29,6 @@ files:
     service_type: premium
     source_pattern: src/res/!(*-*).docx
     source_locale: en-GB
-    target_pattern: src/res/{{original_file_bame}}-{{lang_2}}-{{language}}.docx
+    target_pattern: src/res/{{original_file_name}}-{{lang_2}}-{{language}}.docx
     target_locales: ['de-DE', 'it-IT']
     preprocessing: true
