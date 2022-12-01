@@ -1,0 +1,99 @@
+# ****************************************************************************
+# Internationalizing your code?
+#    Checkout our Quick Start README!
+#    /asana2/docs/web_app/luna-ui/internationalization.md
+# ****************************************************************************
+
+'**Duplicate this task in order to track a [...] [Template content 8ceacdaf0df6cc6eca935b268b7469d6]':
+  author: ginoreyes
+  comment: '[risorsa: asana_web_app_templates] Utilizzato in modelli creati da Asana - sales_pipeline'
+  value: '**Duplicare questa attività per tenere traccia di un nuovo potenziale cliente. Per duplicare un''attività, vai al menu ''...'' e fai clic su ''Converti attività in modello.''"** 
+
+
+Quindi, segui il programma di workback nelle sottoattività sottostanti per spostarle da un''opportunità a un cliente!'
+'"{projectName}" and {count} other projects will be moved to the References [...]':
+  author: lesialiao
+  comment: Usa la stessa traduzione di 'References [sostantivo]'
+  fallback_key: '"{projectName}" e {count} altri progetti saranno spostati nel lavoro di supporto [...]'
+  locations:
+    - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
+  value:
+    count_one: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Riferimenti una volta salvate le modifiche.'
+    count_other: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Riferimenti una volta salvate le modifiche.'
+'"{projectName}" and {count} other projects will be moved to the References section once your changes are saved. Projects [...]':
+  author: lesialiao
+  comment: Usa la stessa traduzione di 'References [sostantivo]'
+  fallback_key: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Riferimenti una volta salvate le modifiche. Progetti'
+  locations:
+    - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
+  value:
+    count_one: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Riferimenti una volta salvate le modifiche. Anche i progetti a cui non hai accesso saranno interessati.'
+    count_other: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Riferimenti una volta salvate le modifiche. Anche i progetti a cui non hai accesso saranno interessati.'
+'"{projectName}" and {count} other projects will be moved to the Supporting work [...]':
+  author: phillipyu
+  locations:
+    - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
+  value:
+    count_one: '"{projectName}" e {count} altro progetto verranno spostati nella sezione di lavoro di supporto una volta salvate le modifiche.'
+    count_other: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Riferimenti una volta salvate le modifiche.'
+'"{projectName}" and {count} other projects will be moved to the Supporting work section once your changes are saved. Projects [...]':
+  author: phillipyu
+  locations:
+    - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
+  value:
+    count_one: '"{projectName}" e {count} altro progetto verranno spostati nella sezione di lavoro di supporto una volta salvate le modifiche. Anche i progetti a cui non hai accesso saranno interessati.'
+    count_other: '"{projectName}" e {count} altri progetti verranno spostati nella sezione Riferimenti una volta salvate le modifiche. Anche i progetti a cui non hai accesso saranno interessati.'
+'"{ruleName}" added to this {variant}':
+  author: alexryan
+  locations:
+    - asana2/luna-ui/src/components/board/column/board_column_boundary.ts
+    - asana2/luna-ui/src/components/dialog/automation/add_automation_dialog_configuration_page.ts
+    - asana2/luna-ui/src/components/dialog/automation/automation_mini_rule_builder_configuration.ts
+  variants:
+    _default: '"{ruleName}" aggiunto'
+    my_tasks: '"{ruleName}" aggiunto a Le mie attività'
+    project: '"{ruleName}" aggiunto a questo progetto'
+    project_template: '"{ruleName}" aggiunto a questo modello di progetto'
+'**Duplicate this task to create a blog task. [...] [Template content c96abd6d10de655bdb44d40d2546e313]':
+  author: ginoreyes
+  comment: '[risorsa: asana_web_app_templates] Utilizzato in modelli creati da Asana - editorial_calendar'
+  locations:
+    - asana2/asana/web/templates/generated_templates/editorial_calendar_business.ts
+    - asana2/asana/web/templates/generated_templates/editorial_calendar_free.ts
+    - asana2/asana/web/templates/generated_templates/editorial_calendar_premium.ts
+  value: '**Duplicare questa attività per creare un''attività blog. Per duplicare un''attività, vai al menu ''...'' e fai clic su ''Converti attività in modello.''"** 
+
+
+Quindi, compilare le seguenti informazioni per iniziare un nuovo blog: - Argomento: 
+
+-Titolo
+
+: 
+
+-Categoria: 
+
+
+Consultare le sottoattività riportate di seguito per una pianificazione del workback suggerita:'
+<div>You</div> [and] {listOfNames} ... and {count} others all {variant}[liked or {heart} this:
+  author: Caleb
+  deprecated: true
+  locations:
+    - asana2/luna-ui/src/components/widgets/hearts/heart_button_tooltip_anchor.ts
+  variants:
+    _default:
+      count_one: <div>You</div> {listOfNames}... e {count} altri {variant} questo
+      count_other: <div>You</div> {listOfNames}... e {count} altri {variant} questo
+    liked:
+      count_one: <div>You</div> Questo è piaciuto a {listOfNames}... e ad altri {count}
+      count_other: <div>You</div> A {listOfNames}... e a {count} altri è piaciuto questo
+    '{heart}':
+      count_one: <div>You</div> {listOfNames}... e {count} altri {heart} questo
+      count_other: <div>You</div> {listOfNames}... e {count} altri {heart} questo
+about-text:
+  author: alex
+  comment: Testo del pulsante, massimo 2 parole
+  value: Informazioni su
+about-tooltip:
+  author: alex
+  comment: Tooltip del pulsante, rendilo breve
+  value: Informazioni sull'applicazione
