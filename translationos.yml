@@ -4,6 +4,10 @@ on:
     - fix*
 pull_requests:
   mode: pr_per_lang
+notification:
+  enabled: true
+  emails:
+    - "shant1997@outlook.com"
 files:
   - translation: professional
     service_type: premium
