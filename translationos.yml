@@ -7,7 +7,7 @@ pull_requests:
 notification:
   enabled: true
   emails:
-    - "shant97@outlook.com"
+    - "shant1997@outlook.com"
 files:
   - translation: professional
     service_type: premium
