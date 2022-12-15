@@ -1,0 +1,99 @@
+# ****************************************************************************
+# Internationalizing your code?
+#    Checkout our Quick Start README!
+#    /asana2/docs/web_app/luna-ui/internationalization.md
+# ****************************************************************************
+
+'**Duplicate this task in order to track a [...] [Template content 8ceacdaf0df6cc6eca935b268b7469d6]':
+  author: ginoreyes
+  comment: '[resource : asana_web_app_templates] Utilisé dans les modèles créés par Asana - sales_pipeline'
+  value: '**Dupliquer cette tâche afin de suivre un nouveau prospect. Pour dupliquer une tâche, accédez au menu ''...'' et cliquez sur ''Convertir la tâche en modèle''. "** 
+
+
+Ensuite, suivez le calendrier de travail dans les sous-tâches ci-dessous pour les déplacer d''une opportunité à un client !'
+'"{projectName}" and {count} other projects will be moved to the References [...]':
+  author: lesialiao
+  comment: Utiliser la même traduction que « Références [nom] »
+  fallback_key: '"{projectName}" et {count} autres projets seront déplacés vers le travail de soutien [...]'
+  locations:
+    - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
+  value:
+    count_one: '"{projectName}" et {count} autre projet seront déplacés vers la section Références une fois vos modifications enregistrées.'
+    count_other: '"{projectName}" et {count} autres projets seront déplacés vers la section Références une fois vos modifications enregistrées.'
+'"{projectName}" and {count} other projects will be moved to the References section once your changes are saved. Projects [...]':
+  author: lesialiao
+  comment: Utiliser la même traduction que « Références [nom] »
+  fallback_key: '"{projectName}" et {count} autres projets seront déplacés vers la section Travail de support une fois vos modifications enregistrées. à grande échelle'
+  locations:
+    - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
+  value:
+    count_one: '"{projectName}" et {count} autre projet seront déplacés vers la section Références une fois vos modifications enregistrées. Les projets auxquels vous n''avez pas accès seront également affectés.'
+    count_other: '"{projectName}" et {count} autres projets seront déplacés vers la section Références une fois vos modifications enregistrées. Les projets auxquels vous n''avez pas accès seront également affectés.'
+'"{projectName}" and {count} other projects will be moved to the Supporting work [...]':
+  author: phillipyu
+  locations:
+    - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
+  value:
+    count_one: '"{projectName}" et {count} autre projet seront déplacés vers la section Travail de support une fois vos modifications enregistrées.'
+    count_other: '"{projectName}" et {count} autres projets seront déplacés vers la section Travail de support une fois vos modifications enregistrées.'
+'"{projectName}" and {count} other projects will be moved to the Supporting work section once your changes are saved. Projects [...]':
+  author: phillipyu
+  locations:
+    - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
+  value:
+    count_one: '"{projectName}" et {count} autre projet seront déplacés vers la section Travail de support une fois vos modifications enregistrées. Les projets auxquels vous n''avez pas accès seront également affectés.'
+    count_other: '"{projectName}" et {count} autres projets seront déplacés vers la section Travail de support une fois vos modifications enregistrées. Les projets auxquels vous n''avez pas accès seront également affectés.'
+'"{ruleName}" added to this {variant}':
+  author: alexryane
+  locations:
+    - asana2/luna-ui/src/components/board/column/board_column_boundary.ts
+    - asana2/luna-ui/src/components/dialog/automation/add_automation_dialog_configuration_page.ts
+    - asana2/luna-ui/src/components/dialog/automation/automation_mini_rule_builder_configuration.ts
+  variants:
+    _default: '"{ruleName}" ajouté'
+    my_tasks: '"{ruleName}" ajouté à Mes tâches'
+    project: '"{ruleName}" ajouté à ce projet'
+    project_template: '"{ruleName}" ajouté à ce modèle de projet'
+'**Duplicate this task to create a blog task. [...] [Template content c96abd6d10de655bdb44d40d2546e313]':
+  author: ginoreyes
+  comment: '[resource : asana_web_app_templates] Utilisé dans les modèles créés par Asana - editorial_calendar'
+  locations:
+    - asana2/asana/web/templates/generated_templates/editorial_calendar_business.ts
+    - asana2/asana/web/templates/generated_templates/editorial_calendar_free.ts
+    - asana2/asana/web/templates/generated_templates/editorial_calendar_premium.ts
+  value: '**Dupliquer cette tâche pour créer une tâche de blog. Pour dupliquer une tâche, accédez au menu ''...'' et cliquez sur ''Convertir la tâche en modèle''. "** 
+
+
+Ensuite, remplissez les informations suivantes afin de commencer un nouveau blog : -Sujet : 
+
+-Titre : 
+
+-Catégorie : 
+
+
+Voir les sous-tâches ci-dessous pour un calendrier de 
+
+travail suggéré :'
+<div>You</div> [and] {listOfNames} ... and {count} others all {variant}[liked or {heart} this:
+  author: Caleb
+  deprecated: true
+  locations:
+    - asana2/luna-ui/src/components/widgets/cœurs/heart_button_tooltip_anchor.ts
+  variants:
+    _default:
+      count_one: <div>Vous</div> {listOfNames} … et {count} d'autres {variant} ce
+      count_other: <div>Vous</div> {listOfNames} … et {count} les autres {variant} ce
+    liked:
+      count_one: <div>Vous</div> {listOfNames} … et {count} autres ont tous aimé cela
+      count_other: <div>Vous</div> {listOfNames} … et {count} autres ont tous aimé cela
+    '{heart}':
+      count_one: <div>Vous</div> {listOfNames} … et {count} d'autres {heart} ce
+      count_other: <div>Vous</div> {listOfNames} … et {count} les autres {heart} ce
+about-text:
+  author: alex
+  comment: Texte du bouton, 2 mots maximum
+  value: À propos de
+about-tooltip:
+  author: alex
+  comment: Bouton info-bulle, faites court
+  value: À propos de cette application
