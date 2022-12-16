@@ -1,9 +1,9 @@
 on:
-  branches:
-    - feature/**
-  wait_interval: 10s
+  tags:
+    - localization*
 pull_requests:
   mode: pr_all_langs
+  automerge: merge
 notification:
   enabled: true
   emails:
