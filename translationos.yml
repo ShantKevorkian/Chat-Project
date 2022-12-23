@@ -3,7 +3,6 @@ on:
     - feature/**
 pull_requests:
   mode: pr_all_langs
-  automerge: merge
 notification:
   enabled: true
   emails:
@@ -14,5 +13,5 @@ files:
     source_pattern: src/res/en-shrinked.yml
     source_locale: en-GB
     target_pattern: src/res/{{original_file_name}}_{{lang_2}}.yml
-    target_locales: ['de-DE', 'it-IT', 'fr-FR', 'es-ES']
+    target_locales: ['de-DE']
     preprocessing: true
