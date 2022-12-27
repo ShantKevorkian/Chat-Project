@@ -11,6 +11,7 @@ files:
   - translation: professional
     service_type: premium
     source_pattern: src/res/stringsclone.properties
+    content_type: text/plain
     source_locale: en-GB
     target_pattern: src/res/{{original_file_name}}_{{lang_2}}.yml
     target_locales: ['de-DE', 'fr-FR', 'it-IT']
