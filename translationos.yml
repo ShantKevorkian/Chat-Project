@@ -14,4 +14,3 @@ files:
     source_locale: en-GB
     target_pattern: src/res/{{original_file_name}}_{{lang_2}}.yml
     target_locales: ['de-DE', 'fr-FR', 'it-IT']
-    preprocessing: true
